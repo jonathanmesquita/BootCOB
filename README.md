@@ -5,7 +5,7 @@ Bem-vindo ao repositório oficial do website da [Nome da Sua Empresa]! Somos esp
 Explore nosso site e descubra como podemos ajudar seu negócio a recuperar ativos e manter a saúde financeira:
 
 Acesse o Site Aqui!
-(Lembre-se de substituir https://seusite.com pelo URL real do seu site quando ele estiver online!)
+(Lembre-se de substituir https://jonathanmesquita.github.io/BootCOB/ pelo URL real do seu site quando ele estiver online!)
 
 ✨ Visão Geral do Projeto
 Este projeto é o website institucional da [Nome da Sua Empresa], construído com foco em responsividade, usabilidade e design moderno. Ele apresenta nossos serviços, casos de sucesso, informações sobre a empresa e uma seção de contato para facilitar a comunicação com nossos clientes.
