@@ -1,0 +1,52 @@
+/* style.css */
+
+/* Seção Hero */
+.hero-section {
+    min-height: 80vh; /* Altura da tela */
+    /* Imagem de fundo que remeta a finanças, crescimento, ou soluções */
+    background: url('https://via.placeholder.com/1920x1080/004c99/ffffff?text=Fundo+de+Recuperacao+Credito') no-repeat center center; /* Azul mais escuro, corporativo */
+    background-size: cover;
+    position: relative;
+}
+
+.hero-section::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Overlay preto com 50% de opacidade */
+}
+
+.hero-section .container {
+    position: relative; /* Para garantir que o conteúdo esteja acima do overlay */
+    z-index: 1;
+}
+
+/* Ajuste para o padding do body por causa da navbar fixa */
+body {
+    padding-top: 70px; /* Ajuste a altura conforme sua navbar */
+}
+
+/* Transparência da Navbar (requer JavaScript para o scroll) */
+.navbar {
+    transition: background-color 0.3s ease-in-out; /* Transição suave para o background */
+}
+
+.navbar.scrolled {
+    background-color: #212529 !important; /* Cor sólida quando scrollado (bg-dark) */
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15); /* Sombra para destacar */
+}
+
+/* Estilo para ícones nos cards */
+.card-body i {
+    font-size: 3rem; /* Tamanho dos ícones */
+}
+
+/* Exemplo de sobrescrita no seu style.css para um azul mais escuro */
+:root {
+  --bs-primary: #003366; /* Um azul marinho mais profundo */
+  --bs-primary-rgb: 0,51,102;
+}
+/* Isso fará com que todas as classes .bg-primary, .text-primary, .btn-primary usem este novo azul */
